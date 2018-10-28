@@ -13,8 +13,8 @@
 .article-container {
   background-color: #fff;
   padding: 40px;
-  margin: 0 10px;
-  max-width: 18%;
+  margin: 10px 10px;
+  max-width: 25%;
 }
 
 .article-header {
@@ -39,4 +39,21 @@
   display: block;
   text-align: center;
   text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .articles__inner-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .article-container {
+    max-width: 48%;
+  }
+}
+
+@media (max-width: 700px) {
+  .article-container {
+    max-width: 100%;
+  }
 }

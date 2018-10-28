@@ -54,3 +54,41 @@
   font-size: $article-font-size;
   line-height: $article-line-height;
 }
+
+@media (max-width: 1000px) {
+  .about-us__content {
+    padding-left: 0;
+    padding: 40px 20px;
+  }
+
+  .about-us__content-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-us__header-content {
+    display: block;
+  }
+
+  .about-us__image-container,
+  .about-us__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-us__header {
+    width: 100%;
+  }
+
+  .about-us__header-container {
+    padding: 50px;
+  }
+}
+
+// @media (max-width: 400px) {
+//   .about-us__header-container {
+//     padding: 10px;
+//   }
+// }
