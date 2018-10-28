@@ -1,0 +1,56 @@
+.about-us__header-container {
+  align-items: center;
+  background-color: #efeee9;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.about-us__header-content {
+  display: flex;
+}
+
+.about-us__header {
+  color: $moonspeak-header-color;
+  line-height: 38px;
+  text-align: center;
+  width: 60%;
+}
+
+.about-us__image-container {
+  width: 50%;
+}
+
+.about-us__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 0;
+  padding-left: 100px;
+  width: 50%;
+}
+
+.about-us-image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.about-us__content-item {
+  width: 60%;
+}
+
+.about-us__content-item--1,
+.about-us__content-item--2 {
+  margin-bottom: 15px;
+}
+
+.about-us__content-header {
+  color: $about-us-header-color;
+}
+
+.about-us__content-text {
+  color: $about-us-text-color;
+  font-size: $article-font-size;
+  line-height: $article-line-height;
+}

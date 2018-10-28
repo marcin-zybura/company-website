@@ -1,0 +1,25 @@
+.moonspeak {
+  align-items: center;
+  background-color: #efeee9;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.moonspeak-container {
+  background-color: #fff;
+  padding: 80px 100px;
+  width: 60%;
+}
+
+.moonspeak-header {
+  color: $moonspeak-header-color;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.moonspeak-text {
+  color: $global-text-color;
+  margin-bottom: 50px;
+}

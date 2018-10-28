@@ -1,0 +1,42 @@
+.articles {
+  background-color: #efeee9;
+  padding: 100px 0;
+}
+
+.articles__inner-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.article-container {
+  background-color: #fff;
+  padding: 40px;
+  margin: 0 10px;
+  max-width: 18%;
+}
+
+.article-header {
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.article-text,
+.article-learn-more {
+  font-size: $article-font-size;
+}
+
+.article-text {
+  line-height: $article-line-height;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.article-learn-more {
+  color: $learn-more-color;
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+}
