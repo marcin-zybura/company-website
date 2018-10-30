@@ -11,3 +11,11 @@
   justify-content: center;
   width: 100%;
 }
+
+.button--view-project {
+  &:hover {
+    border: 2px solid #a23448;
+    color: #a23448;
+    transition: color 0.4s, border 0.4s;
+  }
+}

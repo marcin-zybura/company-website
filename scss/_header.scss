@@ -27,7 +27,13 @@
 .navigation-list__element {
   color: $navigation-text-color;
   font-size: $navigation-font-size;
+  font-weight: bold;
   margin: 0 15px;
+
+  &:hover {
+    color: #a23448;
+    transition: color 0.4s;
+  }
 }
 
 .navigation-list__element-header {

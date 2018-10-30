@@ -115,7 +115,13 @@ h6 {
 .navigation-list__element {
   color: #222222;
   font-size: 14px;
+  font-weight: bold;
   margin: 0 15px;
+}
+
+.navigation-list__element:hover {
+  color: #a23448;
+  transition: color 0.4s;
 }
 
 .navigation-list__element-header {
@@ -522,4 +528,10 @@ h6 {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+.button--view-project:hover {
+  border: 2px solid #a23448;
+  color: #a23448;
+  transition: color 0.4s, border 0.4s;
 }
