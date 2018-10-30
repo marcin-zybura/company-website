@@ -5,13 +5,40 @@
 }
 
 .portfolio-item  {
+  cursor: pointer;
+  position: relative;
   width: 33.33%;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+    z-index: 1;
+  }
 }
 
 .portfolio-item__image {
   display: block;
   height: 100%;
   width: 100%;
+}
+
+.portfolio-item-text {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1000px) {
