@@ -443,6 +443,34 @@ h6 {
   font-weight: bold;
 }
 
+@media (max-width: 1050px) {
+  .contact-info-container {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .contact__inner-container {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+  }
+  .contact-info-container,
+  .contact-map-container {
+    width: 100%;
+  }
+  .contact-info-container {
+    padding: 20px 0;
+    padding-left: 60px;
+  }
+  .contact-map-image {
+    height: auto;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
 .footer {
   background-color: #efeee9;
 }
