@@ -13,10 +13,11 @@
 }
 
 .header__navigation {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.7);
   display: flex;
   justify-content: center;
   height: $navigation-height;
+  position: relative;
 }
 
 .navigation-list {
@@ -56,6 +57,37 @@
   width: 70%;
 }
 
+.hamburger-container {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bar1, .bar2, .bar3 {
+  background-color: $global-text-color;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+  width: 35px;
+}
+
+.hamburger-toggle {
+  .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .bar2 {
+    opacity: 0;
+  }
+
+  .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+}
+
 @media (max-width: 600px) {
   .header {
     justify-content: flex-start;
@@ -76,6 +108,10 @@
 
   .navigation-list__element--desktop {
     display: none;
+  }
+
+  .hamburger-container {
+    display: block;
   }
 }
 

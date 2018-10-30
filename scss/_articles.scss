@@ -39,6 +39,11 @@
   display: block;
   text-align: center;
   text-decoration: underline;
+
+  &:hover {
+    color: #a23448;
+    transition: color 0.4s;
+  }
 }
 
 @media (max-width: 1000px) {
