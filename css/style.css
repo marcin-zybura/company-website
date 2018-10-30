@@ -494,6 +494,22 @@ h6 {
   color: #353535;
 }
 
+@media (max-width: 1050px) {
+  .footer {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__inner-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .media-container {
+    margin-bottom: 10px;
+  }
+}
+
 .button {
   background-color: transparent;
   border: 2px solid #222222;
