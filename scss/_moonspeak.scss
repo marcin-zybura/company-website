@@ -24,6 +24,16 @@
   margin-bottom: 50px;
 }
 
+@media (max-width: 900px) {
+  .moonspeak {
+    min-height: auto;
+  }
+
+  .moonspeak-container {
+    width: 100%;
+  }
+}
+
 @media (max-width: 550px) {
   .moonspeak-container {
     padding: 40px 50px;

@@ -12,11 +12,12 @@
 
     <header class="header">
         <nav class="header__navigation">
-          <div class="hamburger-container" onclick="myFunction(this)">
+          <div class="hamburger-container" onclick="hamburgerToggle(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
           </div>
+
           <ul class="navigation-list">
             <a href="">
               <li class="navigation-list__element navigation-list__element--desktop">PORTFOLIO</li>
@@ -26,7 +27,7 @@
             </a>
             <a href="">
               <li class="navigation-list__element">
-                <h3 class="navigation-list__element navigation-list__element-header">MOONSPEAK</h3>
+                <h3 class="navigation-list__element navigation-list__element-header navigation-list__element-header--desktop">MOONSPEAK</h3>
               </li>
             </a>
             <a href="">
@@ -36,6 +37,26 @@
               <li class="navigation-list__element navigation-list__element--desktop">CONTACT</li>
             </a>
           </ul>
+
+          <h3 class="mobile-header">MOONSPEAK</h3>
+
+          <div id="navigation-list--mobile" class="navigation-list--mobile">
+            <ul>
+              <a href="">
+                <li class="navigation-list__element navigation-list__element--mobile">PORTFOLIO</li>
+              </a>
+              <a href="">
+                <li class="navigation-list__element navigation-list__element--mobile">ABOUT</li>
+              </a>
+              <a href="">
+                <li class="navigation-list__element navigation-list__element--mobile">ARTICLES</li>
+              </a>
+              <a href="">
+                <li class="navigation-list__element navigation-list__element--mobile">CONTACT</li>
+              </a>
+            </ul>
+          </div>
+          
         </nav>
         <div class="header__inner-container">
           <p class="header__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam natus doloremque accusantium voluptate. Tempora illo nemo.</p>
