@@ -272,6 +272,7 @@ h6 {
   color: #444444;
   margin-bottom: 60px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .moonspeak-text {
@@ -419,6 +420,7 @@ h6 {
 
 .about-us__content-header {
   color: #29045b;
+  text-transform: uppercase;
 }
 
 .about-us__content-text {
@@ -651,6 +653,10 @@ h6 {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+.button--view-project {
+  text-transform: uppercase;
 }
 
 .button--view-project:hover {
