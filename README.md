@@ -1,4 +1,4 @@
-# company-website
+# Company Website
 
 Exemplary company website.
 
